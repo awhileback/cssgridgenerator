@@ -85,8 +85,7 @@ export default {
   width: 80vw;
   max-width: 700px;
   padding: 0px 50px 60px;
-  background-color: #192d38;
-  border-radius: 5px;
+  background-color: $white;
   box-shadow: 0 2px 20px rgba(0, 0, 0, 0.8);
   transition: all 0.3s ease;
   border: 1px solid black;

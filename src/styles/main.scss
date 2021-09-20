@@ -1,5 +1,7 @@
-$teal: #08ffbd;
-$grey : #aaaaaa;
+$white : #ffffff;
+$grey : #585858;
+$teal : #007d7e;
+$font : #585858;
 
 * {
   box-sizing: border-box;
@@ -16,29 +18,29 @@ body {
   height: 90vh;
   padding: 0;
   margin: 0;
-  background: #192d38; /* Old browsers */
+  background: $white; /* Old browsers */
   background: -moz-radial-gradient(
     center,
     ellipse cover,
-    #192d38 0%,
-    #211f2f 100%
+    $white 0%,
+    $white 100%
   ); /* FF3.6-15 */
   background: -webkit-radial-gradient(
     center,
     ellipse cover,
-    #192d38 0%,
-    #211f2f 100%
+    $white 0%,
+    $white 100%
   ); /* Chrome10-25,Safari5.1-6 */
   background: radial-gradient(
     ellipse at center,
-    #192d38 0%,
-    #211f2f 100%
+    $white 0%,
+    $white 100%
   ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#192d38', endColorstr='#211f2f',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
   font-family: "Mukta Mahee", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: white;
+  color: $font;
   font-weight: 300;
 }
 
@@ -77,10 +79,9 @@ fieldset {
 
 button {
   background: transparent;
-  color: $teal;
+  color: $grey;
   padding: 4px 30px 5px;
-  border-radius: 1000px;
-  border: 1px solid $teal;
+  border: 1px solid $grey;
   font-size: 16px;
   margin: 20px 0 0;
   cursor: pointer;
@@ -88,16 +89,43 @@ button {
 
   &:hover {
     background: $teal;
-    color: black;
+    color: $white;
   }
 }
 
+.hint-1 {
+  width: 25%;
+  display: inline-block;
+  margin-top: 2rem;
+  margin-right: 4rem;
+}
+
+.hint-2 {
+  width: 25%;
+  display: inline-block;
+  margin-top: 2rem;
+  margin-right: 4rem;
+}
+
+.hint-3 {
+  width: 25%;
+  display: inline-block;
+  margin-top: 2rem;
+  marin-right: 4rem;
+}
+
 [type="reset"] {
+  background: transparent;
   color: $grey;
+  padding: 4px 30px 5px;
   border: 1px solid $grey;
+  font-size: 16px;
+  margin: 20px 0 0;
+  cursor: pointer;
+  transition: 0.35s all;
 
   &:hover {
-    background: $grey;
-    color: black;
+    background: $teal;
+    color: $white;
   }
 }

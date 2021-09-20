@@ -1,7 +1,6 @@
 <template>
   <header>
-    <app-github-corner/>
-    <app-logo/>
+
   </header>
 </template>
 

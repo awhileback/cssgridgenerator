@@ -42,12 +42,12 @@ export default {};
   a:visited,
   a:active {
     color: #fb7826;
-    text-decoration: underline;
+    text-decoration: bold;
   }
 }
 
 strong {
-  color: #ffd908;
+  color: #007d7e;
 }
 
 a,

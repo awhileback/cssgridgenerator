@@ -61,6 +61,10 @@
       </section>
     </div>
     <!--gridcontainer-->
+    <div class="hint-1">
+    <b>Hint #1:</b> click + drag (like you're painting or drawing a line) across multiple cells to define areas of one or more ".divs" that can be assigned a block in your page layout.</div>
+    <div class="hint-2"><b>Hint #2:</b> Divs can overlap!  Draw one partially over the top of another to create overlay effects. They will be rendered in the order in which they are placed on the page.</div>
+    <div class="hint-3"><b>Hint #3:</b> you can exchange "fr" values with "px" values.  1fr = 1 <b>fr</b>actional unit of the view, which scales with screen resolution. "200px" = 200px no matter what screen it is viewed on.</div>
   </main>
 </template>
 
@@ -205,29 +209,29 @@ main {
 }
 
 #gridcontainer {
-  border: 1px solid #08ffbd;
+  border: 1px solid #007d7e;
   width: 100%;
   height: 100%;
   z-index: 0;
   position: relative;
-  background: #131321; /* Old browsers */
+  background: #00666a; /* Old browsers */
   background: -moz-linear-gradient(
     top,
-    #131321 0%,
+    #00666a 0%,
     #1f1c2c 100%
   ); /* FF3.6-15 */
   background: -webkit-linear-gradient(
     top,
-    #131321 0%,
+    #00666a 0%,
     #1f1c2c 100%
   ); /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(
     to bottom,
-    #131321 0%,
+    #00666a 0%,
     #1f1c2c 100%
   ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#131321', endColorstr='#1f1c2c',GradientType=0 ); /* IE6-9 */
-  box-shadow: 0 2px 20px 0 #000;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00666a', endColorstr='#1f1c2c',GradientType=0 ); /* IE6-9 */
+  box-shadow: 0 2px 2px 0 #000;
 }
 
 .grid {

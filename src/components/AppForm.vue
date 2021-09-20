@@ -120,9 +120,9 @@ aside {
   font-family: "Caveat", cursive;
   font-size: 22px;
   margin-top: 18px;
-  color: #a8c9cc;
+  color: $teal;
   opacity: 0.9;
-  font-weight: normal;
+  font-weight: bold;
   cursor: pointer;
 }
 
